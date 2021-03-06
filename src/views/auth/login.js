@@ -79,11 +79,15 @@ class login extends React.Component {
 				password: password,
 			};
 			axios
-				.post("http://localhost:8000/api/login", data, {
-					headers: {
-						"Content-Type": "application/json",
-					},
-				})
+				.post(
+					"https://api-webapp-admindashboard.herokuapp.com/api/login",
+					data,
+					{
+						headers: {
+							"Content-Type": "application/json",
+						},
+					}
+				)
 				.then(async (response) => {
 					let login = await response.data.login; // menunggu respone API db login
 					//hadling user input jika user login salah maka akan show error

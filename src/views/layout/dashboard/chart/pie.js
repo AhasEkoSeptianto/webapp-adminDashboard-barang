@@ -54,9 +54,11 @@ class pie extends React.Component {
 
 	get_all_data = async () => {
 		let all_data = [];
-		await axios.get("http://localhost:8000/api").then((res) => {
-			all_data.push(res.data);
-		});
+		await axios
+			.get("https://api-webapp-admindashboard.herokuapp.com/api")
+			.then((res) => {
+				all_data.push(res.data);
+			});
 		all_data[0].forEach((res) => {
 			switch (res.nama_item) {
 				case "Pencil": {

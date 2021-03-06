@@ -24,9 +24,11 @@ class input_data extends React.Component {
 	// jika props tidak ada data barang maka akan diupdate
 	setupRedux = async () => {
 		let all_data = [];
-		await axios.get("http://localhost:8000/api").then((res) => {
-			all_data.push(res.data);
-		});
+		await axios
+			.get("https://api-webapp-admindashboard.herokuapp.com/api")
+			.then((res) => {
+				all_data.push(res.data);
+			});
 		this.props.setUp(all_data[0]);
 		this.setState({ all_data: all_data[0] });
 	};
