@@ -114,11 +114,15 @@ class input_data extends React.Component {
 		let result = this.validate(data.qty);
 		if (result === true) {
 			axios
-				.post("http://localhost:8000/api/input", data, {
-					headers: {
-						"Content-Type": "application/json",
-					},
-				})
+				.post(
+					"https://api-webapp-admindashboard.herokuapp.com/api/input",
+					data,
+					{
+						headers: {
+							"Content-Type": "application/json",
+						},
+					}
+				)
 				.then((response) => {
 					this.setupRedux();
 					alert("berhasil menambah data");
