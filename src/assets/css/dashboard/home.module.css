@@ -1,0 +1,36 @@
+.container {
+	display: block;
+	width: 100%;
+}
+
+.header_color {
+	width: 100%;
+	height: 60px;
+	background: #2e8b57;
+}
+
+.main {
+	padding: 10px 50px;
+}
+
+.info_grafik {
+	text-align: center;
+}
+
+/*main*/
+
+/*canvas*/
+
+.chart_container {
+	display: flex;
+	width: 100%;
+}
+
+.item_terjual {
+	text-align: center;
+	width: 50%;
+}
+
+/*end canvas*/
+
+/*end main*/

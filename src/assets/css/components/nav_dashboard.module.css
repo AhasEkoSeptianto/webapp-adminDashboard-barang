@@ -1,0 +1,175 @@
+/*component*/
+
+.logo_image {
+	width: 50px;
+}
+
+.logo_online {
+	width: 10px;
+}
+
+.para_white {
+	color: #ffffff;
+}
+
+.para_nav {
+	color: #c0c0c0;
+	transition: 0.5s;
+}
+
+.icon_nav {
+	margin-right: 10px;
+	color: #ffffff;
+	width: 20px;
+}
+
+.icon_nav * {
+	color: #c0c0c0;
+}
+
+.img_item_nav {
+	width: 13px !important;
+	margin-right: 10px;
+	padding-left: 25px;
+}
+
+.img_item_nav * {
+	color: #808080;
+}
+
+.link_item_nav {
+	text-decoration-line: none;
+}
+
+/*end component*/
+
+/*menu nav*/
+/*logo*/
+.logo_container {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	padding: 7px;
+	background-color: #2e8b57;
+}
+
+.logo_icons_container {
+	width: 30px;
+	padding: 10px;
+	color: #ffffff;
+}
+
+.menu_nav {
+	width: 230px;
+	height: 100vh;
+	background-color: #2f4f4f;
+	transition: 0.5s;
+	cursor: pointer;
+}
+/*end logo*/
+
+.container_dashboard {
+	display: flex;
+}
+
+/*profile navbar*/
+
+.container_profile_nav {
+	display: flex;
+	padding: 10px;
+}
+
+.container_profile_nav * {
+	color: #f2f2f2;
+	font-size: 15px;
+}
+
+.img_user {
+	width: 70px;
+}
+
+.info_users {
+	margin-left: 10px;
+}
+
+.container_online {
+	display: flex;
+	margin-top: -20px;
+}
+
+.logo_online {
+	width: 10px;
+	margin-right: 5px;
+}
+
+/*end profile navbar*/
+
+/*menu items*/
+
+.container_menu_item * {
+	padding: 5px;
+	text-align: left;
+	color: #a0a0a0;
+	font-size: 12px;
+	font-family: sans-serif;
+	background-color: #374d4d;
+}
+
+.item_nav {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	padding: 0px 15px;
+	font-size: 15px;
+	color: #ffffff;
+}
+
+.item_nav:hover {
+	background-color: #246e44;
+}
+
+.container_arrow {
+	width: 100%;
+}
+
+.arrow_nav {
+	float: right;
+	transition: 1s;
+}
+
+.arrow_nav * {
+	color: #c0c0c0;
+}
+
+.drop_down_nav {
+	margin-top: -1px;
+	list-style: none;
+	transition: 0.5s;
+	height: 0px;
+	overflow: hidden;
+}
+.drop_down_nav * {
+	color: #c0c0c0;
+}
+
+.list_item_dropdown {
+	display: flex;
+	align-items: center;
+	font-size: 15px;
+	padding: 5px;
+	margin-left: -40px;
+}
+
+.list_item_dropdown:hover {
+	background-color: #246e44;
+}
+
+/*end menu items*/
+
+/*logout*/
+.link_item_nav_logout {
+	margin-top: -10px;
+}
+/*end logout*/
+
+/*end menu nav*/
